@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carnet Vaccin</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 16px;
+    color: #555;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            const btn = form.querySelector('button[type="submit"]');
+            const loader = document.getElementById('loader');
+            const msg = document.getElementById('waitmsg');
+            form.onsubmit = function() {
+                btn.disabled = true;
+                btn.style.opacity = 0.6;
+                btn.style.cursor = 'not-allowed';
+                loader.style.display = 'block';
+                msg.style.display = 'block';
+            };
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Extraction des données du carnet de vaccination</h1>
+        <form action="/generer" method="post">
+            <label>
+                Date de début :
+                <input type="date" name="start_date" value="{{.Start}}" required>
+            </label>
+            <label>
+                Date de fin :
+                <input type="date" name="end_date" value="{{.Today}}">
+            </label>
+            <button type="submit">Générer</button>
+        </form>
+        <div id="loader" style="display:none; text-align:center; margin-top:20px;">
+            <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" stroke="#007bff">
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(2 2)" stroke-width="3">
+                        <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>
+                        <path d="M36 18c0-9.94-8.06-18-18-18">
+                            <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"/>
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div id="waitmsg" style="display:none; text-align:center; color:#007bff; font-size:18px; margin-top:10px;">Génération du fichier en cours, veuillez patienter...</div>
+    </div>
+</body>
+</html>

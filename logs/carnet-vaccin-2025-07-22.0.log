@@ -1,0 +1,48 @@
+14:47:35.457 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 14:47:35 EAT 2025
+14:47:35.461 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:47:35.462 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:47:35.463 [main] ERROR fr.chmayotte.dpi.Main - Error while trying to parse 2025-07-22 to date
+14:53:31.468 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 14:53:31 EAT 2025
+14:53:31.472 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:53:31.473 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:53:31.475 [main] ERROR fr.chmayotte.dpi.Main - Error while trying to parse 2025-07-22 to date
+14:58:16.780 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 14:58:16 EAT 2025
+14:58:16.783 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:58:16.784 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:58:16.784 [main] ERROR fr.chmayotte.dpi.Main - Error while trying to parse 2025-07-22 to date
+14:58:30.095 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 14:58:30 EAT 2025
+14:58:30.098 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:58:30.099 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:58:30.099 [main] ERROR fr.chmayotte.dpi.Main - Error while trying to parse 2025-07-22 to date
+14:59:01.281 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 14:59:01 EAT 2025
+14:59:01.283 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:59:01.284 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:59:01.284 [main] ERROR fr.chmayotte.dpi.Main - Error while trying to parse 2025-06-30 to date
+15:24:52.032 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 15:24:52 EAT 2025
+15:24:52.036 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+15:24:52.036 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+15:24:52.037 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 22 00:00:00 EAT 2025
+15:24:52.038 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507010000
+15:24:52.038 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+15:25:05.414 [main] INFO  fr.chmayotte.dpi.Main - 56552 lines from resultSet
+15:25:09.657 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+15:25:09.658 [main] INFO  fr.chmayotte.dpi.Main - 56552 lines in input file
+15:25:11.476 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+15:25:13.686 [main] INFO  fr.chmayotte.dpi.Main - 56552 lines read from input file
+15:25:13.740 [main] INFO  fr.chmayotte.dpi.Main - 18638 UniqueKey grouped
+15:25:13.850 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 1
+15:25:13.862 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+15:26:59.674 [main] INFO  fr.chmayotte.dpi.Main - Start time Tue Jul 22 15:26:59 EAT 2025
+15:26:59.677 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+15:26:59.677 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+15:26:59.678 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+15:26:59.679 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507220000
+15:26:59.679 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+15:27:02.508 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines from resultSet
+15:27:07.027 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+15:27:07.028 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines in input file
+15:27:08.865 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+15:27:11.326 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines read from input file
+15:27:11.382 [main] INFO  fr.chmayotte.dpi.Main - 19979 UniqueKey grouped
+15:27:11.499 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+15:27:11.525 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx

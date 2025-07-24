@@ -1,0 +1,154 @@
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 10:10:16 EAT 2025
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507220000
+10:10:16.782 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+10:10:30.219 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines from resultSet
+10:10:38.977 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+10:10:38.979 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines in input file
+10:10:42.009 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+10:10:44.357 [main] INFO  fr.chmayotte.dpi.Main - 61506 lines read from input file
+10:10:44.425 [main] INFO  fr.chmayotte.dpi.Main - 19979 UniqueKey grouped
+10:10:44.543 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+10:10:44.573 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:20:25.524 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:20:25 EAT 2025
+14:20:25.528 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:20:25.528 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:20:25.529 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:20:25.531 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:20:25.531 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:20:38.635 [main] INFO  fr.chmayotte.dpi.Main - 61601 lines from resultSet
+14:20:49.798 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:20:49.800 [main] INFO  fr.chmayotte.dpi.Main - 61601 lines in input file
+14:20:51.667 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:20:53.824 [main] INFO  fr.chmayotte.dpi.Main - 61601 lines read from input file
+14:20:54.471 [main] INFO  fr.chmayotte.dpi.Main - 20001 UniqueKey grouped
+14:20:54.588 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+14:20:54.635 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:27:31.422 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:27:31 EAT 2025
+14:27:31.426 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:27:31.427 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:27:31.428 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:27:31.429 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507250000
+14:27:31.429 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:27:33.747 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines from resultSet
+14:27:38.531 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:27:38.533 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines in input file
+14:27:40.496 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:27:42.652 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines read from input file
+14:27:42.726 [main] INFO  fr.chmayotte.dpi.Main - 20087 UniqueKey grouped
+14:27:42.918 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 243
+14:27:42.957 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:31:39.556 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:31:39 EAT 2025
+14:31:39.560 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:31:39.560 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:31:39.561 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:31:39.562 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507250000
+14:31:39.562 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:31:41.831 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines from resultSet
+14:31:55.475 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:31:55.477 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines in input file
+14:31:57.788 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:32:01.761 [main] INFO  fr.chmayotte.dpi.Main - 61871 lines read from input file
+14:32:01.830 [main] INFO  fr.chmayotte.dpi.Main - 20087 UniqueKey grouped
+14:32:01.943 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 243
+14:32:01.978 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:36:44.924 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:36:44 EAT 2025
+14:36:44.927 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:36:44.928 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:36:44.929 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:36:44.929 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:36:44.930 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:36:47.686 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines from resultSet
+14:36:59.030 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:36:59.034 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines in input file
+14:37:01.204 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:37:04.971 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines read from input file
+14:37:05.033 [main] INFO  fr.chmayotte.dpi.Main - 19996 UniqueKey grouped
+14:37:05.149 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+14:37:05.177 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:39:52.246 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:39:52 EAT 2025
+14:39:52.249 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:39:52.250 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:39:52.250 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:39:52.251 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:39:52.251 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:39:55.547 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines from resultSet
+14:40:00.009 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:40:00.010 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines in input file
+14:40:02.065 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:40:06.429 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines read from input file
+14:40:06.508 [main] INFO  fr.chmayotte.dpi.Main - 19996 UniqueKey grouped
+14:40:06.624 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+14:40:06.662 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:45:14.615 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:45:14 EAT 2025
+14:45:14.619 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:45:14.619 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:45:14.621 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:45:14.622 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:45:14.622 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:45:17.270 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines from resultSet
+14:45:23.550 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:45:23.553 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines in input file
+14:45:25.918 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:45:28.980 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines read from input file
+14:45:29.049 [main] INFO  fr.chmayotte.dpi.Main - 19996 UniqueKey grouped
+14:45:29.174 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+14:45:29.215 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:52:34.152 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:52:34 EAT 2025
+14:52:34.156 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:52:34.157 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:52:34.158 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Jul 01 00:00:00 EAT 2025
+14:52:34.159 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:52:34.159 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:52:36.847 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines from resultSet
+14:52:52.001 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:52:52.003 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines in input file
+14:52:54.107 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:52:56.576 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines read from input file
+14:52:56.645 [main] INFO  fr.chmayotte.dpi.Main - 19996 UniqueKey grouped
+14:52:56.767 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 235
+14:52:56.794 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:55:12.288 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:55:12 EAT 2025
+14:55:12.291 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:55:12.291 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:55:12.292 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Tue Apr 01 00:00:00 EAT 2025
+14:55:12.293 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202507230000
+14:55:12.293 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:55:14.804 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines from resultSet
+14:55:19.184 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:55:19.184 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines in input file
+14:55:21.296 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:55:25.609 [main] INFO  fr.chmayotte.dpi.Main - 61586 lines read from input file
+14:55:25.682 [main] INFO  fr.chmayotte.dpi.Main - 19996 UniqueKey grouped
+14:55:25.798 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 5069
+14:55:26.601 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+14:57:00.897 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 14:57:00 EAT 2025
+14:57:00.901 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+14:57:00.901 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+14:57:00.902 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Thu May 01 00:00:00 EAT 2025
+14:57:00.903 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202506300000
+14:57:00.903 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+14:57:03.027 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines from resultSet
+14:57:12.316 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+14:57:12.317 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines in input file
+14:57:14.167 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+14:57:16.925 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines read from input file
+14:57:16.988 [main] INFO  fr.chmayotte.dpi.Main - 18594 UniqueKey grouped
+14:57:17.061 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 2012
+14:57:17.139 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
+15:01:06.716 [main] INFO  fr.chmayotte.dpi.Main - Start time Wed Jul 23 15:01:06 EAT 2025
+15:01:06.720 [main] INFO  fr.chmayotte.dpi.Main - Usage : java [-Dworkdir=myDirectory] -jar <jar-file> [<to_date>] [<from_date>]
+15:01:06.720 [main] INFO  fr.chmayotte.dpi.Main - args length = 2
+15:01:06.721 [main] INFO  fr.chmayotte.dpi.Main - FROM_DATE (filter vax after this date) = Thu May 01 00:00:00 EAT 2025
+15:01:06.722 [main] INFO  fr.chmayotte.dpi.Main - TO_DATE (filter vax before this date) = 202506300000
+15:01:06.723 [main] INFO  fr.chmayotte.dpi.Main - Executing sql query from file out/in.sql
+15:01:08.921 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines from resultSet
+15:01:19.910 [main] INFO  fr.chmayotte.dpi.Main - Generated input file out/generated_in.xlsx
+15:01:19.914 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines in input file
+15:01:22.060 [main] INFO  fr.chmayotte.dpi.Main - Input file out/generated_in.xlsx
+15:01:24.314 [main] INFO  fr.chmayotte.dpi.Main - 56418 lines read from input file
+15:01:24.446 [main] INFO  fr.chmayotte.dpi.Main - 18594 UniqueKey grouped
+15:01:24.552 [main] INFO  fr.chmayotte.dpi.Main - Nb of completed vax = 2012
+15:01:24.653 [main] INFO  fr.chmayotte.dpi.Main - Output file out/out.xlsx
