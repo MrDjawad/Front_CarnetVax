@@ -10,10 +10,69 @@ import (
     "time"
 )
 
+var (
+    validUsername = "admin"
+    validPassword = "reblochon"
+    sessionCookieName = "session_auth"
+    sessionDuration = 30 * 60 // 30 minutes en secondes
+)
+
+func isAuthenticated(r *http.Request) bool {
+    cookie, err := r.Cookie(sessionCookieName)
+    return err == nil && cookie.Value == "ok"
+}
+
+func loginHandler(w http.ResponseWriter, r *http.Request) {
+    if r.Method == http.MethodGet {
+        tmpl := template.Must(template.ParseFiles("templates/login.html"))
+        tmpl.Execute(w, nil)
+        return
+    }
+    // POST
+    username := r.FormValue("username")
+    password := r.FormValue("password")
+    if username == validUsername && password == validPassword {
+        http.SetCookie(w, &http.Cookie{
+            Name: sessionCookieName,
+            Value: "ok",
+            Path: "/",
+            HttpOnly: true,
+            MaxAge: sessionDuration,
+        })
+        http.Redirect(w, r, "/", http.StatusSeeOther)
+        return
+    }
+    tmpl := template.Must(template.ParseFiles("templates/login.html"))
+    tmpl.Execute(w, map[string]string{"Error": "Identifiants invalides"})
+}
+
+func logoutHandler(w http.ResponseWriter, r *http.Request) {
+    http.SetCookie(w, &http.Cookie{
+        Name: sessionCookieName,
+        Value: "",
+        Path: "/",
+        MaxAge: -1,
+        HttpOnly: true,
+    })
+    http.Redirect(w, r, "/login", http.StatusSeeOther)
+}
+
+func requireAuth(next http.HandlerFunc) http.HandlerFunc {
+    return func(w http.ResponseWriter, r *http.Request) {
+        if !isAuthenticated(r) {
+            http.Redirect(w, r, "/login", http.StatusSeeOther)
+            return
+        }
+        next(w, r)
+    }
+}
+
 func main() {
-    http.HandleFunc("/", formHandler)
-    http.HandleFunc("/generer", genererHandler)
-    http.HandleFunc("/telecharger", telechargerHandler)
+    http.HandleFunc("/login", loginHandler)
+    http.HandleFunc("/logout", logoutHandler)
+    http.HandleFunc("/", requireAuth(formHandler))
+    http.HandleFunc("/generer", requireAuth(genererHandler))
+    http.HandleFunc("/telecharger", requireAuth(telechargerHandler))
     http.ListenAndServe(":8080", nil)
 }
 
